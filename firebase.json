@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dist/kombanzweddingplanners",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

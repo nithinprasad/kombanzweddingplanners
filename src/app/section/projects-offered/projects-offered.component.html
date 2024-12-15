@@ -1,0 +1,95 @@
+<div class="container-xxl py-5">
+    <div class="container">
+        <div
+            class="text-center mx-auto mb-5 wow fadeInUp"
+            data-wow-delay="0.1s"
+            style="max-width: 500px;"
+        >
+            <p class="text-primary text-uppercase mb-2">Our Works</p>
+            <h1 class="display-6 mb-0">
+                Discover Our Unique And Creative Photoshoot
+            </h1>
+        </div>
+        <div class="row g-3">
+            <div
+                class="col-lg-3 col-md-6 wow fadeInUp"
+                data-wow-delay="0.1s"
+            >
+                <div class="row g-3">
+                    <div class="col-12">
+                        <app-project-images
+                            [image]="images['wedding1']"
+                            [title]="'Wedding'"
+                        ></app-project-images>
+                    </div>
+                    <div class="col-12">
+                        <div class="col-12">
+                            <app-project-images
+                                [image]="images['potrait']"
+                                [title]="'Potrait'"
+                            ></app-project-images>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-md-6 wow fadeInUp"
+                data-wow-delay="0.3s"
+            >
+                <div class="row g-3">
+                    <div class="col-12">
+                        <app-project-images
+                            [image]="images['kinder']"
+                            [title]="'Kids Photoshoot'"
+                        ></app-project-images>
+                    </div>
+                    <div class="col-12">
+                        <app-project-images
+                            [image]="images['engagement']"
+                            [title]="'Engagement'"
+                        ></app-project-images>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-md-6 wow fadeInUp"
+                data-wow-delay="0.5s"
+            >
+                <div class="row g-3">
+                    <div class="col-12">
+                        <app-project-images
+                            [image]="images['maternity']"
+                            [title]="'Maternity'"
+                        ></app-project-images>
+                    </div>
+                    <div class="col-12">
+                        <app-project-images
+                            [image]="images['festivals']"
+                            [title]="'Festivals'"
+                        ></app-project-images>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="col-lg-3 col-md-6 wow fadeInUp"
+                data-wow-delay="0.7s"
+            >
+                <div class="row g-3">
+                    <div class="col-12">
+                        <div class="col-12">
+                            <app-project-images
+                                [image]="images['wedding']"
+                                [title]="'wedding'"
+                            ></app-project-images>
+                        </div>
+                        <app-project-images
+                            [image]="images['savedate']"
+                            [title]="'Save The Date'"
+                        ></app-project-images>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
