@@ -14,6 +14,11 @@ import { WhyChooseUsComponent } from './section/why-choose-us/why-choose-us.comp
 import { ServiceOfferedComponent } from './section/service-offered/service-offered.component';
 import { ProjectsOfferedComponent } from './section/projects-offered/projects-offered.component';
 import { ProjectImagesComponent } from './component/project-images/project-images.component';
+import { PhotographersComponent } from './section/photographers/photographers.component';
+import { SocialWidgetComponent } from './section/social-widget/social-widget.component';
+import { TestimonialsComponent } from './section/testimonials/testimonials.component';
+import { FooterComponent } from './section/footer/footer.component';
+import { ContactComponent } from './section/contact/contact.component';
 // TODO: Add SDKs for Firebase products that you want to use
 // https://firebase.google.com/docs/web/setup#available-libraries
 
@@ -41,7 +46,12 @@ const analytics = getAnalytics(app);
     WhyChooseUsComponent,
     ServiceOfferedComponent,
     ProjectsOfferedComponent,
-    ProjectImagesComponent
+    ProjectImagesComponent,
+    PhotographersComponent,
+    SocialWidgetComponent,
+    TestimonialsComponent,
+    FooterComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
