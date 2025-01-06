@@ -1,9 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-<<<<<<< HEAD
 import { Observable } from 'rxjs';
 import { HeroImageService } from 'src/app/service/hero-image.service';
-=======
->>>>>>> 89d8ded4a1e11302b504c450a436c62f47871c1e
 
 @Component({
   selector: 'app-social-widget',
@@ -11,7 +8,6 @@ import { HeroImageService } from 'src/app/service/hero-image.service';
   styleUrls: ['./social-widget.component.css']
 })
 export class SocialWidgetComponent implements OnInit {
-<<<<<<< HEAD
   posts: Observable<any[]>;
 
 
@@ -22,12 +18,5 @@ export class SocialWidgetComponent implements OnInit {
     
   }
    
-=======
-
-  constructor() { }
-
-  ngOnInit(): void {
-  }
->>>>>>> 89d8ded4a1e11302b504c450a436c62f47871c1e
 
 }
