@@ -14,13 +14,19 @@
     "@angular/common": "^14.2.0",
     "@angular/compiler": "^14.2.0",
     "@angular/core": "^14.2.0",
+<<<<<<< HEAD
     "@angular/fire": "^7.4.0",
+=======
+>>>>>>> 89d8ded4a1e11302b504c450a436c62f47871c1e
     "@angular/forms": "^14.2.0",
     "@angular/platform-browser": "^14.2.0",
     "@angular/platform-browser-dynamic": "^14.2.0",
     "@angular/router": "^14.2.0",
     "firebase": "^9.17.1",
+<<<<<<< HEAD
     "firebase-admin": "^13.0.1",
+=======
+>>>>>>> 89d8ded4a1e11302b504c450a436c62f47871c1e
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
@@ -30,7 +36,10 @@
     "@angular/cli": "~14.2.3",
     "@angular/compiler-cli": "^14.2.0",
     "@types/jasmine": "~4.0.0",
+<<<<<<< HEAD
     "@types/node": "^16.10.0",
+=======
+>>>>>>> 89d8ded4a1e11302b504c450a436c62f47871c1e
     "jasmine-core": "~4.3.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",

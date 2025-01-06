@@ -13,9 +13,13 @@ export class ServiceOfferedComponent implements OnInit {
    images: { [key: string]: string } = {};
 
   ngOnInit(): void {
+<<<<<<< HEAD
     this.imageService.getServiceImages().then(
       (response) => this.images = response
     );
+=======
+     this.images = this.imageService.getServiceImages();
+>>>>>>> 89d8ded4a1e11302b504c450a436c62f47871c1e
   }
 
 }
