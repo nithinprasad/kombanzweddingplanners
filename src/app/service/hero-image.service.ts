@@ -184,7 +184,7 @@ export class HeroImageService {
           const images = response.files
             .filter((file: any) => file.mimeType.startsWith('image/'))
             .map((file: any) =>
-              `https://www.googleapis.com/drive/v3/files/${file.id}?alt=media&key=${DRIVE_API_KEY}`
+              `https://drive.google.com/thumbnail?id=${file.id}&&sz=w1000&alt=media&key=${DRIVE_API_KEY}`
             );
 
           // Update the cache with the new data and timestamp
