@@ -13,7 +13,9 @@ export class MainHeadingComponent implements OnInit {
   images: string[] = [];
 
   ngOnInit(): void {
-     this.images = this.imageService.getHeaderImages();
+    this.imageService.getHeaderImages().then(
+       (response => this.images = response)
+     );
   }
 
 }

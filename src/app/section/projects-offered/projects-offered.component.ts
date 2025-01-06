@@ -13,7 +13,9 @@ export class ProjectsOfferedComponent implements OnInit {
   constructor(private imageService: HeroImageService) { }
 
   ngOnInit(): void {
-    this.images = this.imageService.getProjectImages();
+    this.imageService.getProjectImages().then(
+      (response) => this.images = response
+    );
   }
 
 }

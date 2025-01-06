@@ -1,0 +1,14 @@
+<div class="instagram-wrapper">
+    <div
+        class="spinner"
+        *ngIf="!iframeLoaded[postid]"
+    ></div>
+    <iframe
+        [src]='this.sanitizeUrl(postid)'
+        class="instagram-iframe"
+        frameborder="0"
+        scrolling="no"
+        allowtransparency="true"
+        (load)="onIframeLoad(postid)"
+    ></iframe>
+</div>

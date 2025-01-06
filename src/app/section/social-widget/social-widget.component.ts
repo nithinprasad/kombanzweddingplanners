@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { HeroImageService } from 'src/app/service/hero-image.service';
 
 @Component({
   selector: 'app-social-widget',
@@ -6,10 +8,15 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./social-widget.component.css']
 })
 export class SocialWidgetComponent implements OnInit {
+  posts: Observable<any[]>;
 
-  constructor() { }
 
+  constructor(private imageService: HeroImageService) {
+    this.posts = this.imageService.getAllInstaPosts();
+   }
   ngOnInit(): void {
+    
   }
+   
 
 }

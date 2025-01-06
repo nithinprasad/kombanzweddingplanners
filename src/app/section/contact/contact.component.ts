@@ -13,7 +13,9 @@ export class ContactComponent implements OnInit {
   images: string[] = [];
 
   ngOnInit(): void {
-    this.images = this.imageService.getContactImages()
+    this.imageService.getContactImages().then(
+       (response => this.images = response)
+     );
   }
 
 }

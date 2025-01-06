@@ -13,7 +13,9 @@ export class AboutUsComponent implements OnInit {
   images: string[] = [];
 
   ngOnInit(): void {
-    this.images = this.imageService.getAboutImages()
+     this.imageService.getAboutImages().then(
+      (response) => this.images = response
+    );
   }
 
 }

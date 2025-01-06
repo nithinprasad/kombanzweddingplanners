@@ -13,7 +13,9 @@ export class ServiceOfferedComponent implements OnInit {
    images: { [key: string]: string } = {};
 
   ngOnInit(): void {
-     this.images = this.imageService.getServiceImages();
+    this.imageService.getServiceImages().then(
+      (response) => this.images = response
+    );
   }
 
 }
